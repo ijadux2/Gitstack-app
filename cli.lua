@@ -38,7 +38,7 @@ local function view_repos()
     for i, r in ipairs(repos) do
         print(i .. ". " .. r.full_name)
         print("   " .. (r.description or "No description"))
-        print("   ★ " .. r.stargazers_count .. " ⑂ " .. r.forks_count .. "  " .. (r.language or ""))
+        print("   ★ " .. tostring(r.stargazers_count) .. " ⑂ " .. tostring(r.forks_count) .. "  " .. (r.language or ""))
     end
 end
 
@@ -62,9 +62,9 @@ local function view_profile()
     print("\n--- Your Profile ---")
     print("Login:", user.login)
     print("Name:", user.name or "N/A")
-    print("Public Repos:", user.public_repos)
-    print("Followers:", user.followers)
-    print("Following:", user.following)
+    print("Public Repos:", tostring(user.public_repos))
+    print("Followers:", tostring(user.followers))
+    print("Following:", tostring(user.following))
     print("Location:", user.location or "N/A")
 end
 
