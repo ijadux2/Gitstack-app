@@ -2,6 +2,12 @@
 
 A native Linux desktop application for GitHub management built with Lua and GTK.
 
+## Notice:
+
+- this is the gitstack native app for linux
+- in progress, have both cli and gui fuctionality,
+- a skeleton for the app more to server
+
 ## Features
 
 - **Native Linux App** - Lightweight binary using Lua and GTK
@@ -48,6 +54,7 @@ lua auth.lua
 ```
 
 This will:
+
 1. Start device flow
 2. Show you a code to enter at https://github.com/login/device
 3. Save your token securely
@@ -67,7 +74,7 @@ lua cli.lua
 ```
 1. View Repositories - Browse your GitHub repos
 2. View Issues      - See open issues across repos
-3. View Starred    - Browse starred repositories  
+3. View Starred    - Browse starred repositories
 4. View Profile    - See your GitHub profile
 5. Exit            - Quit the app
 ```
@@ -93,6 +100,7 @@ gitstack-native/
 ## Theme
 
 Uses Catppuccin Mocha colors:
+
 - Background: #1e1e2e
 - Surface: #313244
 - Text: #cdd6f4
