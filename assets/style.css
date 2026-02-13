@@ -1,0 +1,158 @@
+/* GitStack Native - Catppuccin Mocha Theme */
+
+window {
+    background-color: @window_bg_color;
+    color: @text_color;
+}
+
+headerbar {
+    background-color: @headerbar_bg_color;
+    color: @text_color;
+}
+
+.view {
+    background-color: @view_bg_color;
+    color: @text_color;
+}
+
+.card {
+    background-color: @card_bg_color;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #cdd6f4;
+}
+
+.dim-label {
+    color: #6c7086;
+    font-size: 12px;
+}
+
+button {
+    background-color: #45475a;
+    color: #cdd6f4;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+}
+
+button:hover {
+    background-color: #585b70;
+}
+
+button.suggested-action {
+    background-color: #cba6f7;
+    color: #1e1e2e;
+}
+
+button.suggested-action:hover {
+    background-color: #f5c2e7;
+}
+
+button.destructive-action {
+    background-color: #f38ba8;
+    color: #1e1e2e;
+}
+
+entry {
+    background-color: #313244;
+    color: #cdd6f4;
+    border: 1px solid #45475a;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+entry:focus {
+    border-color: #cba6f7;
+}
+
+listbox {
+    background-color: transparent;
+}
+
+listbox row {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+listbox row:hover {
+    background-color: #313244;
+}
+
+listbox row:selected {
+    background-color: #45475a;
+}
+
+textview {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+scrolledwindow {
+    background-color: #181825;
+    border-radius: 8px;
+}
+
+paned {
+    background-color: #181825;
+}
+
+separator {
+    background-color: #313244;
+}
+
+label {
+    color: #cdd6f4;
+}
+
+scrollbar > slider {
+    background-color: #45475a;
+    border-radius: 4px;
+}
+
+scrollbar > slider:hover {
+    background-color: #585b70;
+}
+
+.notebook tab {
+    background-color: #313244;
+    color: #a6adc8;
+    padding: 8px 16px;
+    border-radius: 8px 8px 0 0;
+}
+
+.notebook tab:selected {
+    background-color: #45475a;
+    color: #cdd6f4;
+}
+
+combobox {
+    background-color: #313244;
+    color: #cdd6f4;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+dialog {
+    background-color: #1e1e2e;
+}
+
+dialog > box {
+    background-color: #1e1e2e;
+}
+
+.frame {
+    background-color: #313244;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+frame > border {
+    border: none;
+}

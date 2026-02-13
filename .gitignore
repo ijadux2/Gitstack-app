@@ -1,0 +1,8 @@
+*.db
+*.db-journal
+data/*.db
+data/*.db-journal
+.luarocks/
+*.rockspec
+src/user.lua
+data/token
